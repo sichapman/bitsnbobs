@@ -11,6 +11,24 @@
   "scoringReviewDate": "2023-02-16T08:00:00Z",
   "areaScores": [
     {
+      "id": 3000,
+      "title": "App Dev",
+      "scorePercent": 100,
+      "scoreLabel": "A",
+      "scoreSuccess": "success",
+      "scoreEntries": [
+        {
+          "id": 2157,
+          "title": "GitFlow",
+          "scorePercent": 100,
+          "scoreLabel": "A",
+          "scoreSuccess": "success",
+          "scoreHints": "Gitflow: 100%",
+          "details": "..."
+        }
+      ]
+    },
+    {
       "id": 2199,
       "title": "Code",
       "scorePercent": 100,
