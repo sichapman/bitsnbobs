@@ -21,7 +21,7 @@
           "id": 4001,
           "title": "AD.1",
           "scorePercent": 100,
-          "scoreLabel": "A",
+          "scoreLabel": "Compliant",
           "scoreSuccess": "success",
           "details": "Must be cloned/forked from the relevant skeleton reference implementation"
         },
@@ -29,7 +29,7 @@
           "id": 4002,
           "title": "AD.2",
           "scorePercent": 100,
-          "scoreLabel": "A",
+          "scoreLabel": "Compliant",
           "scoreSuccess": "success",
           "details": "Must be written in Python or Java"
         },
@@ -38,18 +38,32 @@
           "title": "AD.3",
           "details": "Python applications must be compatible with Python version 3.9",
           "scorePercent": 0,
-          "scoreLabel": "Compliant",
-          "scoreSuccess": "almost-success",
-          "scoreHints": "N/A"
+          "scoreLabel": "N/A",
+          "scoreSuccess": "almost-success"
         },
         {
           "id": 4004,
           "title": "AD.4",
           "details": "Python applications won't use Python version 3.8 or below",
           "scorePercent": 0,
-          "scoreLabel": "A",
-          "scoreSuccess": "almost-success",
-          "scoreHints": "N/A"
+          "scoreLabel": "N/A",
+          "scoreSuccess": "almost-success"
+        },
+        {
+          "id": 4005,
+          "title": "AD.5",
+          "details": "Java applications must be compatible with OpenJDK version 17",
+          "scorePercent": 0,
+          "scoreLabel": "Non-compliant",
+          "scoreSuccess": "failure"
+        },
+        {
+          "id": 4006,
+          "title": "AD.6",
+          "details": "Java applications won't use OpenJDK version 16 or below",
+          "scorePercent": 0,
+          "scoreLabel": "Non-compliant",
+          "scoreSuccess": "failure"
         }
       ]
     },
