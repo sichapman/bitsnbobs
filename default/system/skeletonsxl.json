@@ -19,7 +19,7 @@
       "scoreEntries": [
         {
           "id": 4001,
-          "title": "From Skeleton",
+          "title": "AD.1",
           "scorePercent": 100,
           "scoreLabel": "A",
           "scoreSuccess": "success",
@@ -27,7 +27,7 @@
         },
         {
           "id": 4002,
-          "title": "Valid Language",
+          "title": "AD.2",
           "scorePercent": 100,
           "scoreLabel": "A",
           "scoreSuccess": "success",
@@ -35,15 +35,17 @@
         },
         {
           "id": 4003,
-          "title": "Python applications must be compatible with Python version 3.9",
+          "title": "AD.3",
+          "details": "Python applications must be compatible with Python version 3.9",
           "scorePercent": 0,
-          "scoreLabel": "A",
+          "scoreLabel": "Compliant",
           "scoreSuccess": "almost-success",
           "scoreHints": "N/A"
         },
         {
           "id": 4004,
-          "title": "Python applications won't use Python version 3.8 or below",
+          "title": "AD.4",
+          "details": "Python applications won't use Python version 3.8 or below",
           "scorePercent": 0,
           "scoreLabel": "A",
           "scoreSuccess": "almost-success",
