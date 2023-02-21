@@ -11,20 +11,19 @@
   "scoringReviewDate": "2023-02-16T08:00:00Z",
   "areaScores": [
     {
-      "id": 3000,
-      "title": "App Dev",
+      "id": 4000,
+      "title": "Application Development",
       "scorePercent": 100,
       "scoreLabel": "A",
       "scoreSuccess": "success",
       "scoreEntries": [
         {
-          "id": 2157,
-          "title": "GitFlow",
+          "id": 4001,
+          "title": "From Skeleton",
           "scorePercent": 100,
           "scoreLabel": "A",
           "scoreSuccess": "success",
-          "scoreHints": "Gitflow: 100%",
-          "details": "..."
+          "details": "Must be cloned/forked from the relevant skeleton reference implementation."
         }
       ]
     },
