@@ -103,7 +103,8 @@
           "title": "PD.4",
           "scoreSuccess": "success",
           "scorePercent": 100,
-          "details": "Applications should be logically grouped together in a single Helm chart"
+          "details": "Applications should be logically grouped together in a single Helm chart",
+          "scoreLabel": "Compliant"
         }
       ]
     },
