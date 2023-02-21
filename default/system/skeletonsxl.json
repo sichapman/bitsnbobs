@@ -78,28 +78,31 @@
           "id": 5001,
           "title": "PD.1",
           "scoreLabel": "Compliant",
+          "scorePercent": 100,
           "scoreSuccess": "success",
           "details": "All new applications must be deployed on to the Shared Technology Platform (STP)"
         },
         {
           "id": 5002,
-          "title": "AD.2",
+          "title": "PD.2",
           "scoreLabel": "Compliant",
+          "scorePercent": 100,
           "scoreSuccess": "success",
           "details": "They must use the capabilities already provided by the platform as a default in production, e.g. postgres, rabbitmq, etc"
         },
         {
           "id": 5003,
-          "title": "AD.3",
+          "title": "PD.3",
+          "scorePercent": 100",
           "scoreLabel": "Compliant",
           "scoreSuccess": "success",
           "details": "Services must be deployed using Helm charts"
         },
         {
           "id": 5004,
-          "title": "AD.4",
+          "title": "PD.4",
           "scoreSuccess": "success",
-          "isOptional": true,
+          "scorePercent": 100,
           "details": "Applications should be logically grouped together in a single Helm chart"
         }
       ]
