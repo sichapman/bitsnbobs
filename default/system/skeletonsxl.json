@@ -23,7 +23,31 @@
           "scorePercent": 100,
           "scoreLabel": "A",
           "scoreSuccess": "success",
-          "details": "Must be cloned/forked from the relevant skeleton reference implementation."
+          "details": "Must be cloned/forked from the relevant skeleton reference implementation"
+        },
+        {
+          "id": 4002,
+          "title": "Valid Language",
+          "scorePercent": 100,
+          "scoreLabel": "A",
+          "scoreSuccess": "success",
+          "details": "Must be written in Python or Java"
+        },
+        {
+          "id": 4003,
+          "title": "Python applications must be compatible with Python version 3.9",
+          "scorePercent": 0,
+          "scoreLabel": "A",
+          "scoreSuccess": "almost-success",
+          "scoreHints": "N/A"
+        },
+        {
+          "id": 4004,
+          "title": "Python applications won't use Python version 3.8 or below",
+          "scorePercent": 0,
+          "scoreLabel": "A",
+          "scoreSuccess": "almost-success",
+          "scoreHints": "N/A"
         }
       ]
     },
