@@ -93,7 +93,7 @@
         {
           "id": 5003,
           "title": "PD.3",
-          "scorePercent": 100",
+          "scorePercent": 100,
           "scoreLabel": "Compliant",
           "scoreSuccess": "success",
           "details": "Services must be deployed using Helm charts"
