@@ -15,7 +15,7 @@
       "title": "Application Development",
       "scorePercent": 66,
       "scoreLabel": "Non-compliant",
-      "scoreSuccess": "almost-failure",
+      "scoreSuccess": "failure",
       "scoreEntries": [
         {
           "id": 4001,
