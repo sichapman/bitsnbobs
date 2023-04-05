@@ -403,7 +403,7 @@
     "scoreEntries": [
       {
         "id": 13001,
-        "title": "SRC.1",
+        "title": "TST.1",
         "scoreLabel": "Compliant",
         "scorePercent": 100,
         "scoreSuccess": "success",
@@ -411,7 +411,7 @@
       },
       {
         "id": 13002,
-        "title": "SRC.2",
+        "title": "TST.2",
         "scoreLabel": "Compliant",
         "scorePercent": 100,
         "scoreSuccess": "success",
@@ -419,7 +419,7 @@
       },
       {
         "id": 13003,
-        "title": "SRC.3",
+        "title": "TST.3",
         "scoreLabel": "Compliant",
         "scorePercent": 100,
         "scoreSuccess": "success",
@@ -427,7 +427,7 @@
       },
       {
         "id": 13004,
-        "title": "SRC.4",
+        "title": "TST.4",
         "scoreLabel": "Compliant",
         "scorePercent": 100,
         "scoreSuccess": "success",
@@ -435,7 +435,7 @@
       },
       {
         "id": 13005,
-        "title": "SRC.5",
+        "title": "TST.5",
         "scoreLabel": "Non-complient",
         "scorePercent": 100,
         "scoreSuccess": "failure",
@@ -443,7 +443,7 @@
       },
       {
         "id": 13006,
-        "title": "SRC.6",
+        "title": "TST.6",
         "scoreLabel": "Non-compliant",
         "scorePercent": 100,
         "scoreSuccess": "failure",
@@ -451,7 +451,7 @@
       },
       {
         "id": 13007,
-        "title": "SRC.7",
+        "title": "TST.7",
         "scoreLabel": "Compliant",
         "scorePercent": 100,
         "scoreSuccess": "success",
@@ -493,7 +493,7 @@
     "scoreEntries": [
       {
         "id": 15001,
-        "title": "SRC.1",
+        "title": "TST.1",
         "scoreLabel": "Compliant",
         "scorePercent": 100,
         "scoreSuccess": "success",
@@ -501,14 +501,14 @@
       },
       {
         "id": 15002,
-        "title": "SRC.2",
+        "title": "TST.2",
         "scoreLabel": "N/A",
         "scorePercent": 100,
         "details": "For Python applications, automated tests must be compatible with PyTest"
       },
       {
         "id": 15003,
-        "title": "SRC.3",
+        "title": "TST.3",
         "scoreLabel": "Compliant",
         "scorePercent": 100,
         "scoreSuccess": "success",
@@ -520,7 +520,7 @@
     "id": 6000,
     "title": "Relational data",
     "scorePercent": 80,
-    "scoreLabel": "Non-compliant",
+    "scoreLabel": "Non-compliant with exception",
     "scoreSuccess": "almost-success",
     "scoreEntries": [
       {
