@@ -267,6 +267,257 @@
     ]
   },
   {
+    "id": 9000,
+    "title": "Function as a service",
+    "scorePercent": 100,
+    "scoreLabel": "N/A",
+    "scoreEntries": [
+      {
+        "id": 9001,
+        "title": "FS.1",
+        "scorePercent": 100,
+        "scoreLabel": "N/A",
+        "details": "Applications must use AWS Lambda for FaaS"
+      },
+      {
+        "id": 9002,
+        "title": "FS.2",
+        "scorePercent": 100,
+        "scoreLabel": "N/A",
+        "details": "Each introduction of new functions must have an associated ODP published for review covering details such as purpose, sensitivity of data and comparison of execution cost vs hosted costs."
+      }
+    ]
+  },
+  {
+    "id": 10000,
+    "title": "Integration",
+    "scorePercent": 100,
+    "scoreLabel": "Compliant",
+    "scoreSuccess": "success",
+    "scoreEntries": [
+      {
+        "id": 10001,
+        "title": "INT.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Integration between applications must follow our integration patterns "
+      },
+      {
+        "id": 10002,
+        "title": "INT.2",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Integration with DB2 must follow our DB2 decoupling patterns"
+      }
+    ]
+  },
+  {
+    "id": 11000,
+    "title": "Code reviews",
+    "scorePercent": 100,
+    "scoreLabel": "Compliant",
+    "scoreSuccess": "success",
+    "scoreEntries": [
+      {
+        "id": 11001,
+        "title": "CR.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Merge requests must be created for all code changes"
+      },
+      {
+        "id": 11002,
+        "title": "CR.2",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "All code must be reviewed by at least one other peer who is not the author"
+      }
+    ]
+  },
+  {
+    "id": 12000,
+    "title": "Documentation",
+    "scorePercent": 100,
+    "scoreLabel": "Compliant",
+    "scoreSuccess": "success",
+    "scoreEntries": [
+      {
+        "id": 12001,
+        "title": "DOC.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Development/operations-centric technical documentation must be held in a technical documentation repository hosted via GitLab pages."
+      },
+      {
+        "id": 12002,
+        "title": "DOC.2",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Product/service architecture and design documentation must exist on TechDocs based on the Product Template page."
+      },
+      {
+        "id": 12003,
+        "title": "DOC.3",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Design models published on TechDocs should align with C4 modelling approach"
+      },
+      {
+        "id": 12004,
+        "title": "DOC.4",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Document based documentation (i.e. Word, Excel, Powerpoint files etc) must be stored in SharePoint."
+      },
+      {
+        "id": 12005,
+        "title": "DOC.5",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Instant messaging platforms such as Slack, Teams etc must only be used for transient, point-in-time discussion. "
+      },
+      {
+        "id": 12006,
+        "title": "DOC.6",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Project management tools such as Trello, Jira etc must link to original sources and not become the sole source of technical information."
+      }
+    ]
+  },
+  {
+    "id": 13000,
+    "title": "Source code and artefact management",
+    "scorePercent": 100,
+    "scoreLabel": "Non-compliant",
+    "scoreSuccess": "almost-failure",
+    "scoreEntries": [
+      {
+        "id": 13001,
+        "title": "SRC.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Source code must be version controlled using Git in accordance with SPEC68 - Git Management Plan on the Process Index"
+      },
+      {
+        "id": 13002,
+        "title": "SRC.2",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "All new source code must be stored in our AWS hosted instance of GitLab (unless instructed otherwise by SPEC68)."
+      },
+      {
+        "id": 13003,
+        "title": "SRC.3",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Compiled & binary artefacts must be stored in the appropriate hosted instance of Nexus "
+      },
+      {
+        "id": 13004,
+        "title": "SRC.4",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Application dependencies and library requirements must be pulled from an appropriate hosted instance of Nexus"
+      },
+      {
+        "id": 13005,
+        "title": "SRC.5",
+        "scoreLabel": "Non-complient",
+        "scorePercent": 100,
+        "scoreSuccess": "failure",
+        "details": "Merge requests that are no longer needed must be closed "
+      },
+      {
+        "id": 13006,
+        "title": "SRC.6",
+        "scoreLabel": "Non-compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "failure",
+        "details": "Stale feature branches with no active merge requests must be removed"
+      },
+      {
+        "id": 13007,
+        "title": "SRC.7",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Repositories that are no longer in use must be archived"
+      }
+    ]
+  },
+  {
+    "id": 14000,
+    "title": "CI/CD",
+    "scorePercent": 100,
+    "scoreLabel": "Non-compliant with exception",
+    "scoreSuccess": "almost-success",
+    "scoreEntries": [
+      {
+        "id": 14001,
+        "title": "CICD.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Applications must be built and deployed using the HMLR Shared Pipeline components"
+      },
+      {
+        "id": 14002,
+        "title": "CICD.2",
+        "scoreLabel": "Non-compliant with exception",
+        "scorePercent": 100,
+        "scoreSuccess": "almost-success",
+        "details": "Where common CI/CD functionality does not exist for the technology or framework being developed, the implementing team must take responsibility for working with the Practices to produce it"
+      }
+    ]
+  },
+  {
+    "id": 15000,
+    "title": "Testing",
+    "scorePercent": 100,
+    "scoreLabel": "Compliant",
+    "scoreSuccess": "almost-success",
+    "scoreEntries": [
+      {
+        "id": 15001,
+        "title": "SRC.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Automated acceptance test suites covering multiple repos/apps must be written in Ruby using Cucumber"
+      },
+      {
+        "id": 15002,
+        "title": "SRC.2",
+        "scoreLabel": "N/A",
+        "scorePercent": 100,
+        "details": "For Python applications, automated tests must be compatible with PyTest"
+      },
+      {
+        "id": 15003,
+        "title": "SRC.3",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "For Java applications, automated tests must be written using JUnit."
+      }
+    ]
+  },
+  {
     "id": 6000,
     "title": "Relational data",
     "scorePercent": 80,
