@@ -569,163 +569,578 @@
   ]
 },
   {
-    "entityRef": {
-      "kind": "system",
-      "name": "skeletonsxl"
-    },
-    "generatedDateTimeUtc": "2021-07-22 10:00",
-    "scorePercent": 57,
-    "scoringReviewer": "Guest",
-    "scoringReviewDate": "2022-01-04T08:00:00Z",
-    "scoreSuccess": "partial",
-    "areaScores": [
+  "entityRef": {
+    "kind": "system",
+    "name": "business-gateway"
+  },
+  "generatedDateTimeUtc": "2021-07-22 10:00",
+  "scorePercent": 57,
+  "scoringReviewer": "Dean Anderson",
+  "scoringReviewDate": "2022-09-30T08:00:00Z",
+  "scoreSuccess": "partial",
+  "areaScores": [
+    {
+    "id": 4000,
+    "title": "Application Development",
+    "scorePercent": 93,
+    "scoreLabel": "Non-compliant",
+    "scoreSuccess": "almost-failure",
+    "scoreEntries": [
       {
-      "id": 4000,
-      "title": "Application Development",
-      "scorePercent": 66,
-      "scoreLabel": "Non-compliant",
-      "scoreSuccess": "failure",
-      "scoreEntries": [
-        {
-          "id": 4001,
-          "title": "AD.1",
-          "scorePercent": 100,
-          "scoreLabel": "Compliant",
-          "scoreSuccess": "success",
-          "details": "Must be cloned/forked from the relevant skeleton reference implementation"
-        },
-        {
-          "id": 4002,
-          "title": "AD.2",
-          "scorePercent": 100,
-          "scoreLabel": "Compliant",
-          "scoreSuccess": "success",
-          "details": "Must be written in Python or Java"
-        },
-        {
-          "id": 4003,
-          "title": "AD.3",
-          "details": "Python applications must be compatible with Python version 3.9",
-          "scorePercent": 100,
-          "scoreLabel": "Compliant",
-          "scoreSuccess": "success"
-        },
-        {
-          "id": 4004,
-          "title": "AD.4",
-          "details": "Python applications won't use Python version 3.8 or below",
-          "scorePercent": 100,
-          "scoreLabel": "Compliant",
-          "scoreSuccess": "success"
-        },
-        {
-          "id": 4005,
-          "title": "AD.5",
-          "details": "Java applications must be compatible with OpenJDK version 17",
-          "scorePercent": 0,
-          "scoreLabel": "Non-compliant",
-          "scoreSuccess": "failure"
-        },
-        {
-          "id": 4006,
-          "title": "AD.6",
-          "details": "Java applications won't use OpenJDK version 16 or below",
-          "scorePercent": 0,
-          "scoreLabel": "Non-compliant",
-          "scoreSuccess": "failure"
-        }
-      ]
-    },
-    {
-      "id": 5000,
-      "title": "Platform deployment",
-      "scorePercent": 100,
-      "scoreLabel": "Compliant",
-      "scoreSuccess": "success",
-      "scoreEntries": [
-        {
-          "id": 5001,
-          "title": "PD.1",
-          "scoreLabel": "Compliant",
-          "scorePercent": 100,
-          "scoreSuccess": "success",
-          "details": "All new applications must be deployed on to the Shared Technology Platform (STP)"
-        },
-        {
-          "id": 5002,
-          "title": "PD.2",
-          "scoreLabel": "Compliant",
-          "scorePercent": 100,
-          "scoreSuccess": "success",
-          "details": "They must use the capabilities already provided by the platform as a default in production, e.g. postgres, rabbitmq, etc"
-        },
-        {
-          "id": 5003,
-          "title": "PD.3",
-          "scorePercent": 100,
-          "scoreLabel": "Compliant",
-          "scoreSuccess": "success",
-          "details": "Services must be deployed using Helm charts"
-        },
-        {
-          "id": 5004,
-          "title": "PD.4",
-          "scoreSuccess": "success",
-          "scorePercent": 100,
-          "details": "Applications should be logically grouped together in a single Helm chart",
-          "scoreLabel": "Compliant"
-        }
-      ]
-    },
-    {
-      "id": 6000,
-      "title": "Relational data",
-      "scorePercent": 80,
-      "scoreLabel": "Non-compliant",
-      "scoreSuccess": "almost-success",
-      "scoreEntries": [
-        {
-          "id": 6001,
-          "title": "RD.1",
-          "scorePercent": 100,
-          "scoreSuccess": "success",
-          "details": "Applications must use PostgreSQL to store relational data",
-          "scoreLabel": "Compliant"
-        },
-        {
-          "id": 6002,
-          "title": "RD.2",
-          "scorePercent": 100,
-          "scoreSuccess": "success",
-          "details": "Relational data wont be stored in a non-relational format e.g. JSON columns",
-          "scoreLabel": "Compliant"
-        },
-        {
-          "id": 6003,
-          "title": "RD.3",
-          "scorePercent": 100,
-          "scoreSuccess": "success",
-          "details": "PostgreSQL database schemas must follow the naming conventions",
-          "scoreLabel": "Compliant"
-        },
-        {
-          "id": 6004,
-          "title": "RD.4",
-          "scorePercent": 100,
-          "scoreSuccess": "almost-success",
-          "details": "Applications won't use DB2.",
-          "scoreLabel": "Non-compliant with exception"
-        },
-        {
-          "id": 6005,
-          "title": "RD.5",
-          "scorePercent": 100,
-          "scoreSuccess": "success",
-          "details": "Applications won't use Stored Procedures",
-          "scoreLabel": "Compliant"
-        }
-      ]
-    }
+        "id": 4001,
+        "title": "AD.1",
+        "scorePercent": 100,
+        "scoreLabel": "Non-compliant with exception",
+        "scoreSuccess": "almost-success",
+        "details": "Must be cloned/forked from the relevant skeleton reference implementation"
+      },
+      {
+        "id": 4002,
+        "title": "AD.2",
+        "scorePercent": 100,
+        "scoreLabel": "Compliant",
+        "scoreSuccess": "success",
+        "details": "Must be written in Python or Java"
+      },
+      {
+        "id": 4003,
+        "title": "AD.3",
+        "details": "Python applications must be compatible with Python version 3.9",
+        "scorePercent": 100,
+        "scoreLabel": "N/A"
+      },
+      {
+        "id": 4004,
+        "title": "AD.4",
+        "details": "Python applications won't use Python version 3.8 or below",
+        "scorePercent": 100,
+        "scoreLabel": "N/A"
+      },
+      {
+        "id": 4005,
+        "title": "AD.5",
+        "details": "Python server applications must use the Flask framework",
+        "scorePercent": 100,
+        "scoreLabel": "N/A"
+      },
+      {
+        "id": 4006,
+        "title": "AD.6",
+        "details": "Python client applications with a queue listener must use the Kombu library ",
+        "scorePercent": 100,
+        "scoreLabel": "N/A"
+      },
+      {
+        "id": 4007,
+        "title": "AD.7",
+        "details": "Java applications must be compatible with OpenJDK version 11",
+        "scorePercent": 100,
+        "scoreLabel": "Compliant",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 4008,
+        "title": "AD.8",
+        "details": "Java applications should be compatible with OpenJDK version 17",
+        "scorePercent": 0,
+        "scoreLabel": "Non-compliant",
+        "scoreSuccess": "failure"
+      },
+      {
+        "id": 4009,
+        "title": "AD.9",
+        "details": "Java applications wont use OpenJDK version 8 or below",
+        "scorePercent": 100,
+        "scoreLabel": "Compliant",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 4010,
+        "title": "AD.10",
+        "details": "Java server applications must use the Spring Boot framework",
+        "scorePercent": 100,
+        "scoreLabel": "Compliant",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 4011,
+        "title": "AD.11",
+        "details": "Java server applications won't use the Spark framework",
+        "scorePercent": 100,
+        "scoreLabel": "Compliant",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 4012,
+        "title": "AD.12",
+        "details": "Must be compatible with the common development environment",
+        "scorePercent": 100,
+        "scoreLabel": "Compliant",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 4013,
+        "title": "AD.13",
+        "details": "Commodities (i.e. local common-dev-env or lower region containers) must match the production deployment environment infrastructure as close as possible",
+        "scorePercent": 100,
+        "scoreLabel": "Compliant",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 4014,
+        "title": "AD.14",
+        "details": "Code must conform to coding standards and style guidelines for Python, JavaScript, Java, Ruby and Delphi ",
+        "scorePercent": 100,
+        "scoreLabel": "Compliant",
+        "scoreSuccess": "success"
+      },
+      {
+        "id": 4015,
+        "title": "AD.15",
+        "details": "Must follow all TDA policies.",
+        "scorePercent": 0,
+        "scoreLabel": "Non-compliant",
+        "scoreSuccess": "failure"
+      }
+    ]
+  },
+  {
+    "id": 5000,
+    "title": "Platform deployment",
+    "scorePercent": 100,
+    "scoreLabel": "Non-compliant",
+    "scoreSuccess": "almost-failure",
+    "scoreEntries": [
+      {
+        "id": 5001,
+        "title": "PD.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "All new applications must be deployed on to the Shared Technology Platform (STP)"
+      },
+      {
+        "id": 5002,
+        "title": "PD.2",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "They must use the capabilities already provided by the platform as a default in production, e.g. postgres, rabbitmq, etc"
+      },
+      {
+        "id": 5003,
+        "title": "PD.3",
+        "scorePercent": 100,
+        "scoreLabel": "Compliant",
+        "scoreSuccess": "success",
+        "details": "Services must be deployed using Helm charts"
+      },
+      {
+        "id": 5004,
+        "title": "PD.4",
+        "scoreSuccess": "failure",
+        "scorePercent": 0,
+        "details": "Applications should be logically grouped together in a single Helm chart",
+        "scoreLabel": "Non-compliant"
+      }
+    ]
+  },
+  {
+    "id": 7000,
+    "title": "Frontend Development",
+    "scorePercent": 100,
+    "scoreLabel": "Non-compliant",
+    "scoreSuccess": "failure",
+    "scoreEntries": [
+      {
+        "id": 7001,
+        "title": "FD.1",
+        "scorePercent": 100,
+        "scoreLabel": "N/A",
+        "details": "Services hosted on *service.gov.uk domains must use the GOV.UK Design System by following this guidance"
+      },
+      {
+        "id": 7002,
+        "title": "FD.2",
+        "scorePercent": 0,
+        "scoreLabel": "Non-compliant",
+        "scoreSuccess": "failure",
+        "details": "All other services must use the HMLR Design System"
+      },
+      {
+        "id": 7003,
+        "title": "FD.3",
+        "scorePercent": 0,
+        "scoreLabel": "Non-compliant",
+        "scoreSuccess": "failure",
+        "details": "External facing services must display the HM Land Registry branding "
+      },
+      {
+        "id": 7004,
+        "title": "FD.4",
+        "scorePercent": 100,
+        "scoreLabel": "Compliant",
+        "scoreSuccess": "success",
+        "details": "All services must only use JavaScript for progressive enhancement, unless there is an explicit requirement that cannot be delivered effectively otherwise (see exceptions) "
+      },
+      {
+        "id": 7005,
+        "title": "FD.5",
+        "scorePercent": 50,
+        "scoreLabel": "Non-compliant with plan",
+        "scoreSuccess": "partial",
+        "details": "All services must meet the WCAG 2.1 AA accessibility standards "
+      },
+      {
+        "id": 7006,
+        "title": "FD.6",
+        "scorePercent": 100,
+        "scoreLabel": "Compliant",
+        "scoreSuccess": "success",
+        "details": "All services must contain a link to an accessibility statement, following the published template content "
+      },
+      {
+        "id": 7007,
+        "title": "FD.7",
+        "scorePercent": 100,
+        "scoreLabel": "N/A",
+        "details": "All services must follow our policy on the use of Single Page Applications (SPA) and associated frameworks when deciding if one is appropriate "
+      }
+    ]
+  },
+  {
+    "id": 8000,
+    "title": "Platform deployment",
+    "scorePercent": 100,
+    "scoreLabel": "Compliant",
+    "scoreSuccess": "success",
+    "scoreEntries": [
+      {
+        "id": 8001,
+        "title": "APID.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "HTTP APIs must be documented using an OpenAPI Specification following published government open standards guidance."
+      },
+      {
+        "id": 8002,
+        "title": "APID.2",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "OpenAPI Specifications should be available without needing access to a running instance of the API. E.g, stored in source control, or published in technical documentation."
+      },
+      {
+        "id": 8003,
+        "title": "APID.3",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "HTTP APIs must be designed following the API best practice guide"
+      }
+    ]
+  },
+  {
+    "id": 9000,
+    "title": "Function as a service",
+    "scorePercent": 100,
+    "scoreLabel": "N/A",
+    "scoreEntries": [
+      {
+        "id": 9001,
+        "title": "FS.1",
+        "scorePercent": 100,
+        "scoreLabel": "N/A",
+        "details": "Applications must use AWS Lambda for FaaS"
+      },
+      {
+        "id": 9002,
+        "title": "FS.2",
+        "scorePercent": 100,
+        "scoreLabel": "N/A",
+        "details": "Each introduction of new functions must have an associated ODP published for review covering details such as purpose, sensitivity of data and comparison of execution cost vs hosted costs."
+      }
+    ]
+  },
+  {
+    "id": 10000,
+    "title": "Integration",
+    "scorePercent": 100,
+    "scoreLabel": "Compliant",
+    "scoreSuccess": "success",
+    "scoreEntries": [
+      {
+        "id": 10001,
+        "title": "INT.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Integration between applications must follow our integration patterns "
+      },
+      {
+        "id": 10002,
+        "title": "INT.2",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Integration with DB2 must follow our DB2 decoupling patterns"
+      }
+    ]
+  },
+  {
+    "id": 11000,
+    "title": "Code reviews",
+    "scorePercent": 100,
+    "scoreLabel": "Compliant",
+    "scoreSuccess": "success",
+    "scoreEntries": [
+      {
+        "id": 11001,
+        "title": "CR.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Merge requests must be created for all code changes"
+      },
+      {
+        "id": 11002,
+        "title": "CR.2",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "All code must be reviewed by at least one other peer who is not the author"
+      }
+    ]
+  },
+  {
+    "id": 12000,
+    "title": "Documentation",
+    "scorePercent": 100,
+    "scoreLabel": "Non-compliant",
+    "scoreSuccess": "almost-failure",
+    "scoreEntries": [
+      {
+        "id": 12001,
+        "title": "DOC.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Development/operations-centric technical documentation must be held in a technical documentation repository hosted via GitLab pages."
+      },
+      {
+        "id": 12002,
+        "title": "DOC.2",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Product/service architecture and design documentation must exist on TechDocs based on the Product Template page."
+      },
+      {
+        "id": 12003,
+        "title": "DOC.3",
+        "scoreLabel": "Non-compliant",
+        "scorePercent": 0,
+        "scoreSuccess": "failure",
+        "details": "Design models published on TechDocs should align with C4 modelling approach"
+      },
+      {
+        "id": 12004,
+        "title": "DOC.4",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Document based documentation (i.e. Word, Excel, Powerpoint files etc) must be stored in SharePoint."
+      },
+      {
+        "id": 12005,
+        "title": "DOC.5",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Instant messaging platforms such as Slack, Teams etc must only be used for transient, point-in-time discussion. "
+      },
+      {
+        "id": 12006,
+        "title": "DOC.6",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Project management tools such as Trello, Jira etc must link to original sources and not become the sole source of technical information."
+      }
+    ]
+  },
+  {
+    "id": 13000,
+    "title": "Source code and artefact management",
+    "scorePercent": 100,
+    "scoreLabel": "Non-compliant",
+    "scoreSuccess": "almost-failure",
+    "scoreEntries": [
+      {
+        "id": 13001,
+        "title": "TST.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Source code must be version controlled using Git in accordance with SPEC68 - Git Management Plan on the Process Index"
+      },
+      {
+        "id": 13002,
+        "title": "TST.2",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "All new source code must be stored in our AWS hosted instance of GitLab (unless instructed otherwise by SPEC68)."
+      },
+      {
+        "id": 13003,
+        "title": "TST.3",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Compiled & binary artefacts must be stored in the appropriate hosted instance of Nexus "
+      },
+      {
+        "id": 13004,
+        "title": "TST.4",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Application dependencies and library requirements must be pulled from an appropriate hosted instance of Nexus"
+      },
+      {
+        "id": 13005,
+        "title": "TST.5",
+        "scoreLabel": "Non-complient",
+        "scorePercent": 100,
+        "scoreSuccess": "failure",
+        "details": "Merge requests that are no longer needed must be closed "
+      },
+      {
+        "id": 13006,
+        "title": "TST.6",
+        "scoreLabel": "Non-compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "failure",
+        "details": "Stale feature branches with no active merge requests must be removed"
+      },
+      {
+        "id": 13007,
+        "title": "TST.7",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Repositories that are no longer in use must be archived"
+      }
+    ]
+  },
+  {
+    "id": 14000,
+    "title": "CI/CD",
+    "scorePercent": 100,
+    "scoreLabel": "Non-compliant",
+    "scoreSuccess": "almost-failure",
+    "scoreEntries": [
+      {
+        "id": 14001,
+        "title": "CICD.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Applications must be built and deployed using the HMLR Shared Pipeline components"
+      },
+      {
+        "id": 14002,
+        "title": "CICD.2",
+        "scoreLabel": "Non-compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "failure",
+        "details": "Where common CI/CD functionality does not exist for the technology or framework being developed, the implementing team must take responsibility for working with the Practices to produce it"
+      }
+    ]
+  },
+  {
+    "id": 15000,
+    "title": "Testing",
+    "scorePercent": 100,
+    "scoreLabel": "Compliant",
+    "scoreSuccess": "success",
+    "scoreEntries": [
+      {
+        "id": 15001,
+        "title": "TST.1",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Automated acceptance test suites covering multiple repos/apps must be written in Ruby using Cucumber"
+      },
+      {
+        "id": 15002,
+        "title": "TST.2",
+        "scoreLabel": "N/A",
+        "scorePercent": 100,
+        "details": "For Python applications, automated tests must be compatible with PyTest"
+      },
+      {
+        "id": 15003,
+        "title": "TST.3",
+        "scoreLabel": "Compliant",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "For Java applications, automated tests must be written using JUnit."
+      }
+    ]
+  },
+  {
+    "id": 6000,
+    "title": "Relational data",
+    "scorePercent": 80,
+    "scoreLabel": "Compliant",
+    "scoreSuccess": "success",
+    "scoreEntries": [
+      {
+        "id": 6001,
+        "title": "RD.1",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Applications must use PostgreSQL to store relational data",
+        "scoreLabel": "Compliant"
+      },
+      {
+        "id": 6002,
+        "title": "RD.2",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Relational data wont be stored in a non-relational format e.g. JSON columns",
+        "scoreLabel": "Compliant"
+      },
+      {
+        "id": 6003,
+        "title": "RD.3",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "PostgreSQL database schemas must follow the naming conventions",
+        "scoreLabel": "Compliant"
+      },
+      {
+        "id": 6004,
+        "title": "RD.4",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Applications won't use DB2.",
+        "scoreLabel": "Compliant"
+      },
+      {
+        "id": 6005,
+        "title": "RD.5",
+        "scorePercent": 100,
+        "scoreSuccess": "success",
+        "details": "Applications won't use Stored Procedures",
+        "scoreLabel": "Compliant"
+      }
     ]
   }
+  ]
+}
 ]
