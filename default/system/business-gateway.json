@@ -1,6 +1,6 @@
 {
   "entityRef": {
-    "kind": "system",
+    "kind": "domain",
     "name": "business-gateway"
   },
   "generatedDateTimeUtc": "2021-07-22 10:00",
